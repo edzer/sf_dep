@@ -1,0 +1,8 @@
+Package: sfdep
+Version: 0.0-0
+Title: Other Features for R
+Authors@R: c(person("Edzer", "Pebesma", role = c("aut", "cre"), email = "edzer.pebesma@uni-muenster.de"))
+Depends: R (>= 3.3.0)
+Imports: sf
+Description: Support for other features
+Collate: test.R
