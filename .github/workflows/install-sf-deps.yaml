@@ -1,0 +1,10 @@
+name: install-sf-deps
+
+jobs:
+  install-sf-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install sf dependencies on Ubuntu
+        run: |
+          apt-get -y update && apt-get install -y  \
+            libudunits2-dev libgdal-dev libgeos-dev libproj-dev
